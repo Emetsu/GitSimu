@@ -40,4 +40,5 @@ while i == 0:
     if again == "y":
         i = 0
     else:
-        i = 1
+        print("Invalid Input")
+        exit()
