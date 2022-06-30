@@ -5,8 +5,8 @@ while i == 0:
     print("===================")
     print("Select operation.")
     print("1.Add (+)")
-    print("2.Subtraction (-)")
-    print("3.Multiplication (*)")
+    print("2.Subtract (-)")
+    print("3.Multiply (*)")
     print("4.Divide (/)")
     print("5.Modulo (%)\n")
 
@@ -35,9 +35,11 @@ while i == 0:
         print("Invalid Input")
 
 
-    again = input("Again?(enter y for yes)")
+    again = input("Again?(Enter y for Yes)")
 
     if again == "y":
         i = 0
     else:
-        i = 1
+        
+	    print("Invalid Input")
+	    exit()
