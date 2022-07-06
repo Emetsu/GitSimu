@@ -3,7 +3,7 @@ while i == 0:
 
     
     print("===================")
-    print("Select operation.")
+    print("Select operation 1-5.")
     print("1.Add (+)")
     print("2.Subtraction (-)")
     print("3.Multiplication (*)")
