@@ -4,11 +4,11 @@ while i == 0:
     
     print("===================")
     print("Select operation.")
-    print("1.Add (+)")
-    print("2.Subtraction (-)")
-    print("3.Multiplication (*)")
-    print("4.Divide (/)")
-    print("5.Modulo (%)\n")
+    print("1. Add (+)")
+    print("2. Subtraction (-)")
+    print("3. Multiplication (*)")
+    print("4. Divide (/)")
+    print("5. Modulo (%)\n")
 
         # user choose what operator to be used.
     choice = input("Enter choice(1/2/3/4/5): ")
